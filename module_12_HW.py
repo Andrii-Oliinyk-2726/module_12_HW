@@ -4,7 +4,7 @@ import pickle
 replies = ["hello", ["good bye", "close", "exit", ' ']]
 answers = ['How can I help you?', 'Good bye!']
 
-
+#
 class AddressBook(UserDict): # логика поиска по записям
     MAX_VALUE = 3
     file_name = 'data.bin'
